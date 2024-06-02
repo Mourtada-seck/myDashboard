@@ -1,7 +1,14 @@
-document.getElementById("sombre").addEventListener("click", function() {
-    document.getElementById("body").style.background = "#677483";
+const sideMenu = document.querySelector('aside');
+const menuBtn = document.querySelector('#menu_bar');
+const closeBtn = document.querySelector('#close_btn');
+
+const themeToggler = document.querySelector('.theme-toggler');
+
+menuBtn.addEventListener('click',()=>{
+    sideMenu.style.display = "block";
+    menuBtn.style.display = "none";
 });
 
-document.getElementById("clair").addEventListener("click", function() {
-    document.getElementById("body").style.background = "#000";
-});
+closeBtn.addEventListener('click',()=>{
+    sideMenu.style.display = "none";
+})
