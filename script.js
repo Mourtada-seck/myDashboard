@@ -19,14 +19,22 @@ closeBtn.addEventListener('click',()=>{
 modeSombre.addEventListener("click",()=>{
     document.body.style.background = "#000"
     document.querySelector('h1:nth-child(1)').style.color = "#fff"
-    // document.querySelector('h2:nth-child(4)').style.color = "#fff"
+    document.querySelector('#h2').style.color = "#fff"
+    document.querySelector('.h2').style.color = "#fff"
+    document.querySelector('.mise').style.color = "#fff"
+    document.querySelector('b').style.color = "#fff"   
+    document.querySelector('.admin').style.color = "#BED3C3"   
 })
 
 // mode clair
 modeClair.addEventListener("click",()=>{
     document.body.style.background = "#fff"
     document.querySelector('h1:nth-child(1)').style.color = "#000"
-    // document.querySelector('h2:nth-child(4)').style.color = "#000"  -----
+    document.querySelector('#h2').style.color = "#000" 
+    document.querySelector('.h2').style.color = "#000" 
+    document.querySelector('.mise').style.color = "#000" 
+    document.querySelector('b').style.color = "#000" 
+    document.querySelector('.admin').style.color = "#BED3C3"   
 })
 
 
