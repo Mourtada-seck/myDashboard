@@ -110,7 +110,7 @@ aside .sidebar a:hover span{
     background: #FF584D;
     border-radius: 1rem 0;
     color: #ffffff;
-    /* font-size: 1px; */
+   
 }
 
 /* start main section  */
@@ -367,9 +367,7 @@ main table tbody tr:last-child td{
 .right .recent_updates .updates:hover{
     box-shadow: none;
 }
-/* i{
-    font-size: 0.7rem;
-} */
+
 .right .recent_updates .update{
     display: grid;
     grid-template-columns: 2.5rem auto;
@@ -422,7 +420,6 @@ main table tbody tr:last-child td{
     align-items: center;
     border: 2px dashed;
     color: #0e0e54;
-    /* border-bottom: 48px; */
     margin-bottom: 1rem;
 }
 .sale_analytic h2{
