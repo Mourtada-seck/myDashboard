@@ -88,7 +88,6 @@ aside .sidebar a.active{
     color: #ffffff;
     margin-left: 0;
     border-left: 5px solid #000;
-    width: 15.6rem;
 }
 
 aside .sidebar a.active::before{
@@ -456,6 +455,13 @@ main table tbody tr:last-child td{
         grid-template-columns: repeat(1,1fr);
     
     }
+
+    aside .sidebar a.active{
+        width: 87%;
+    }
+
+
+
     .right .top .profile .info p{
         color: #9b9797;
     }

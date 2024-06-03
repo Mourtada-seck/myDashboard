@@ -18,11 +18,15 @@ closeBtn.addEventListener('click',()=>{
 // mode sombre 
 modeSombre.addEventListener("click",()=>{
     document.body.style.background = "#000"
+    document.querySelector('h1:nth-child(1)').style.color = "#fff"
+    // document.querySelector('h2:nth-child(4)').style.color = "#fff"
 })
 
 // mode clair
 modeClair.addEventListener("click",()=>{
     document.body.style.background = "#fff"
+    document.querySelector('h1:nth-child(1)').style.color = "#000"
+    // document.querySelector('h2:nth-child(4)').style.color = "#000"  -----
 })
 
 
