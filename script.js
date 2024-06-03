@@ -17,24 +17,26 @@ closeBtn.addEventListener('click',()=>{
 
 // mode sombre 
 modeSombre.addEventListener("click",()=>{
-    document.body.style.background = "#000"
+    document.body.style.background = "#1c2733"
     document.querySelector('h1:nth-child(1)').style.color = "#fff"
-    document.querySelector('#h2').style.color = "#fff"
-    document.querySelector('.h2').style.color = "#fff"
-    document.querySelector('.mise').style.color = "#fff"
-    document.querySelector('b').style.color = "#fff"   
-    document.querySelector('.admin').style.color = "#BED3C3"   
-})
-
-// mode clair
-modeClair.addEventListener("click",()=>{
-    document.body.style.background = "#fff"
-    document.querySelector('h1:nth-child(1)').style.color = "#000"
-    document.querySelector('#h2').style.color = "#000" 
-    document.querySelector('.h2').style.color = "#000" 
-    document.querySelector('.mise').style.color = "#000" 
-    document.querySelector('b').style.color = "#000" 
-    document.querySelector('.admin').style.color = "#BED3C3"   
+      document.querySelector('.sidebar').style.background = "#427AA1"
+      document.querySelector('.insights>div').style.background = "#427AA1"
+      document.querySelector('.insights>div:nth-child(2)').style.background = "#427AA1"
+      document.querySelector('.insights>div:nth-child(3)').style.background = "#427AA1"
+      document.querySelector('table').style.background = "#427AA1"
+      document.querySelector('.updates').style.background = "#427AA1"
+    })
+    
+    // mode clair
+    modeClair.addEventListener("click",()=>{
+        document.body.style.background = "#677483"
+        document.querySelector('.sidebar').style.background = "#fff"
+        document.querySelector('.insights>div').style.background = "#fff"
+        document.querySelector('.insights>div:nth-child(2)').style.background = "#fff"
+        document.querySelector('.insights>div:nth-child(3)').style.background = "#fff"
+        document.querySelector('table').style.background = "#fff"
+        document.querySelector('.updates').style.background = "#fff"
+       
 })
 
 
