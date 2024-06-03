@@ -432,7 +432,7 @@ main table tbody tr:last-child td{
 
 @media screen and (max-width:1200px) {
     .contener{
-        width: 94%
+        width: 94%;
     }
     
     aside .sidebar a:last-child{
