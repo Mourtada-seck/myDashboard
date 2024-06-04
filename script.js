@@ -25,6 +25,7 @@ modeSombre.addEventListener("click",()=>{
       document.querySelector('.insights>div:nth-child(3)').style.background = "#427AA1"
       document.querySelector('table').style.background = "#427AA1"
       document.querySelector('.updates').style.background = "#427AA1"
+      document.querySelector('.add_products>div').style.color = "#fff"
     })
     
     // mode clair

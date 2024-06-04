@@ -430,7 +430,11 @@ main table tbody tr:last-child td{
 
 /* ****** media query ( requête média ) ***** */
 
+
 @media screen and (max-width:1200px) {
+    body{
+        width: 100%;
+    }
     .contener{
         width: 94%;
     }
