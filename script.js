@@ -19,25 +19,26 @@ closeBtn.addEventListener('click',()=>{
 modeSombre.addEventListener("click",()=>{
     document.body.style.background = "#1c2733"
     document.querySelector('h1:nth-child(1)').style.color = "#fff"
-      document.querySelector('.sidebar').style.background = "#427AA1"
-      document.querySelector('.insights>div').style.background = "#427AA1"
-      document.querySelector('.insights>div:nth-child(2)').style.background = "#427AA1"
-      document.querySelector('.insights>div:nth-child(3)').style.background = "#427AA1"
-      document.querySelector('table').style.background = "#427AA1"
-      document.querySelector('.updates').style.background = "#427AA1"
-      document.querySelector('.add_products>div').style.color = "#fff"
+    document.querySelector('.sidebar').style.background = "#427AA1"
+    document.querySelector('.insights>div').style.background = "#427AA1"
+    document.querySelector('.insights>div:nth-child(2)').style.background = "#427AA1"
+    document.querySelector('.insights>div:nth-child(3)').style.background = "#427AA1"
+    document.querySelector('table').style.background = "#427AA1"
+    document.querySelector('.updates').style.background = "#427AA1"
+    document.querySelector('.add_products>div').style.color = "#fff"
     })
     
     // mode clair
-    modeClair.addEventListener("click",()=>{
-        document.body.style.background = "#677483"
-        document.querySelector('.sidebar').style.background = "#fff"
-        document.querySelector('.insights>div').style.background = "#fff"
-        document.querySelector('.insights>div:nth-child(2)').style.background = "#fff"
-        document.querySelector('.insights>div:nth-child(3)').style.background = "#fff"
-        document.querySelector('table').style.background = "#fff"
-        document.querySelector('.updates').style.background = "#fff"
+modeClair.addEventListener("click",()=>{
+    document.body.style.background = "#677483"
+    document.querySelector('.sidebar').style.background = "#fff"
+    document.querySelector('.insights>div').style.background = "#fff"
+    document.querySelector('.insights>div:nth-child(2)').style.background = "#fff"
+    document.querySelector('.insights>div:nth-child(3)').style.background = "#fff"
+    document.querySelector('table').style.background = "#fff"
+    document.querySelector('.updates').style.background = "#fff"
        
+    
 })
 
 
